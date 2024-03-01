@@ -9,26 +9,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.header,
-.hero,
-.footer {
     background-color: #1F2937;
 }
 
-/* FIRST CONTAINER {HEADER AND HERO} */
+.second,
+.fourth {
+    background-color: white;
+}
+
+/* FIRST SECTION {HEADER AND HERO} */
 .first {
     display: flex;
     flex-direction: column;
+    padding: 0 20%;
 }
 
-/* HEADER CONTANER */
+/* HEADER CONTAINER */
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 #headerlogo {
@@ -45,23 +46,21 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 30px;
+    margin-left: 50px;
 }
 
-/* HERO CONTANER */
+/* HERO CONTAINER */
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     padding-bottom: 100px;
-    border: solid 1px blue;
 }
 
 .herotext {
     height: 250px;
     width: 450px;
-    border: solid 1px red;
 }
 
 #maintext {
@@ -95,17 +94,16 @@ a {
     background-color: gray;
     color: white;
     text-align: center;
-    border: solid 1px purple;
 }
 
-/* SECOND CONTAINER */
+/* SECOND SECTION */
 
 .second {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 #secondinfo {
@@ -139,15 +137,14 @@ a {
 }
 
 
-/* THIRD CONTAINER */
+/* THIRD SECTION */
 .third {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
     background-color: #E5E7EB;
-    padding: 50px 100px;
+    padding: 75px 0;
 }
 
 .third p {
@@ -168,22 +165,22 @@ a {
     margin-left: 600px;
 }
 
-/* FOURTH CONTAINER */
+/* FOURTH SECTION */
 .fourth {
     display: flex;
     justify-content: center;
-    padding: 50px 100px;
+    padding: 75px 0;
 }
 
 #blueblock {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
     width: 1000px;
     height: 100px;
     gap: 100px;
-    border-radius: 6px;
+    border-radius: 12px;
     color: white;
 }
 
